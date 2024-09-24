@@ -68,7 +68,7 @@
     });
 </script>
 
-<div class="container mx-auto p-4 bg-gray-900 text-gray-100 min-h-screen">
+<div class="container mx-auto p-4 text-gray-100 min-h-screen">
     <h1 class="text-3xl font-bold text-gray-100">Assignment Tracker</h1>
 
     <!-- Form to add or edit assignment -->
@@ -87,7 +87,7 @@
         />
         <button
             on:click={addAssignment}
-            class="bg-blue-600 text-white p-2 rounded hover:bg-blue-700 transition"
+            class="bg-neutral-800 text-white p-2 rounded hover:bg-neutral-600 transition"
         >
             {isEditing ? "Update" : "Add"} Assignment
         </button>
