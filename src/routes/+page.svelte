@@ -77,13 +77,13 @@
             type="text"
             placeholder="Title"
             bind:value={title}
-            class="border border-gray-700 bg-gray-800 rounded p-2 w-full mb-2 text-gray-100"
+            class="border border-gray-700 bg-neutral-800 rounded p-2 w-full mb-2 text-gray-100"
         />
         <input
             type="text"
             placeholder="Description"
             bind:value={description}
-            class="border border-gray-700 bg-gray-800 rounded p-2 w-full mb-2 text-gray-100"
+            class="border border-gray-700 bg-neutral-800 rounded p-2 w-full mb-2 text-gray-100"
         />
         <button
             on:click={addAssignment}
